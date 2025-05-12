@@ -25,7 +25,7 @@ function deleteGrid(){
 function generateGrid(squaresPerSide){
     const numPixels = squaresPerSide**2
     const pixelLength = 960/squaresPerSide
-
+    deleteGrid()
     for (let i = 0; i < numPixels; i++){
         const grid = document.createElement("div")
         grid.setAttribute("class", "pixel")
