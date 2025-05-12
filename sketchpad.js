@@ -18,7 +18,7 @@ for (let i = 0; i < numPixels; i++){
     grid.style.boxSizing = "border-box"
     grid.style.width = sideLength + "px"
     grid.style.height = sideLength + "px"
-    grid.style.backgroundColor = "blue"
-    grid.style.border = "solid 1px"
+    grid.style.backgroundColor = "white"
+    grid.style.opacity = "0.1"
     container.appendChild(grid)
 }
