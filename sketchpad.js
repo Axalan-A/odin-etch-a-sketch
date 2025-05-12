@@ -23,7 +23,6 @@ for (let i = 0; i < numPixels; i++){
     grid.addEventListener("mouseover", () => {
         grid.style.backgroundColor = generateRandomColor()
         grid.style.opacity = String(parseFloat(grid.style.opacity) + 0.1)
-        console.log(String(parseFloat(grid.style.opacity) + 0.1))
     })
     container.appendChild(grid)
 }
