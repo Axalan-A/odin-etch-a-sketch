@@ -6,9 +6,9 @@ function getRandomInt(max) {
 }
 
 function generateRandomColor(){
-    const redValue = getRandomInt(255)
-    const greenValue = getRandomInt(255)
-    const blueValue = getRandomInt(255)
+    const redValue = getRandomInt(256)
+    const greenValue = getRandomInt(256)
+    const blueValue = getRandomInt(256)
     return `rgb(${redValue}, ${greenValue}, ${blueValue})`
 }
 
