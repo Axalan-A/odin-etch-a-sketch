@@ -14,7 +14,12 @@ function generateRandomColor(){
 
 gridChangeButton.addEventListener("click", () => {
     const squaresPerSide = prompt("How many squares per side?")
+    if(squaresPerSide > 100){
+        alert("Max grid size is 100x100")
+        generateGrid(100)
+    } else{
     generateGrid(squaresPerSide)
+    }
 })
 
 function deleteGrid(){
